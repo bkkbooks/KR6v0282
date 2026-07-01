@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6v0282/I/v1
+canonical_location: https://kanripo.org/bkk/KR6v0282/I/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 比丘道政四十人等造像記
+  identifiers:
+    krp: KR6v0282
+    cbeta: I01n0078
+    cbeta_old_id: I01n0078
+    authorityid: CA0008213
+    json_key: I0078
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0078.xml
+    old_id: I01n0078
+  edition:
+    short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0282_000-I.yaml, hash: 'sha256:4fafb0e558c38297290440e89a28a6bb1f4fb8fdc98e4d2bff8611fb4dd39a31'}
+  - {seq: 1, filename: KR6v0282_001-I.yaml, hash: 'sha256:a1d1e5e8875b70e62ff07ab7190e93643278fa1914add4fc8bea65fd1deee0bf'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0282_000-I.markers.yaml, hash: 'sha256:5e35ed64987041771e98332bb3378cc222fd28735e39b2b11557a2f8367dd7e7'}
+  - {seq: 1, role: markers, filename: assets/KR6v0282_001-I.markers.yaml, hash: 'sha256:81d2de30e73a4526b45fb7f3c04db7d8605192e11f0f631a8b91173758d00a6e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0282_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 528
+  label: 比丘道政四十人等造像記
+  type: juan
+  level: 1
+hash: sha256:9e98f832451ee39a5e591f10011057b669daf953336840e3da77b03e8109430b

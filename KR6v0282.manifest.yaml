@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6v0282/v1
+canonical_location: https://kanripo.org/bkk/KR6v0282/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 比丘道政四十人等造像記
+  identifiers:
+    alt_id:
+    - I01n0078
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0078.xml
+    old_id: I01n0078
+  edition:
+    short: bkk
+editions:
+- short: 佛拓
+  label: 佛拓
+  source_xml_id: wit.orig
+- short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0282_000.yaml, hash: 'sha256:4fafb0e558c38297290440e89a28a6bb1f4fb8fdc98e4d2bff8611fb4dd39a31'}
+  - {seq: 1, filename: KR6v0282_001.yaml, hash: 'sha256:fde9938be293b7338d527b7127c751238e1d6cf363fb85484fc26d37253fd2e3'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0282_001.markers.yaml, hash: 'sha256:cf2ee3eaa4d192d172519e31a5143d0894a02d81466c8980d6dbdd3e813361ca'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0282_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 528
+  label: 比丘道政四十人等造像記
+  type: juan
+  level: 1
+hash: sha256:8192b7d1f9b8a5db2c6a08cbc41d78f51d6e4dc40c7783980e4b30bbc0d4cc87
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
