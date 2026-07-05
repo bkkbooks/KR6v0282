@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0282_000.yaml, hash: 'sha256:4fafb0e558c38297290440e89a28a6bb1f4fb8fdc98e4d2bff8611fb4dd39a31'}
-  - {seq: 1, filename: KR6v0282_001.yaml, hash: 'sha256:fde9938be293b7338d527b7127c751238e1d6cf363fb85484fc26d37253fd2e3'}
+  - {seq: 1, filename: KR6v0282_001.yaml, hash: 'sha256:a1d1e5e8875b70e62ff07ab7190e93643278fa1914add4fc8bea65fd1deee0bf'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6v0282_001.markers.yaml, hash: 'sha256:cf2ee3eaa4d192d172519e31a5143d0894a02d81466c8980d6dbdd3e813361ca'}
+  - {seq: 0, role: markers, filename: assets/KR6v0282_000.markers.yaml, hash: 'sha256:fd62d32ed46874302807b82ae432eada8fb4812891e30284a1a76212ebfb63df'}
+  - {seq: 1, role: markers, filename: assets/KR6v0282_001.markers.yaml, hash: 'sha256:bf5c28e342e4fb91f6bf5ecd3a009eb012e22909119b8a0e45140d4c68c5cb89'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 比丘道政四十人等造像記
   type: juan
   level: 1
-hash: sha256:8192b7d1f9b8a5db2c6a08cbc41d78f51d6e4dc40c7783980e4b30bbc0d4cc87
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:2951b0deed9099346443c34b2d7183c95e04d6d0182029fffa8cac0593cdb11d
